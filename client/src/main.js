@@ -3,7 +3,7 @@ import { InputMan } from "@mescius/inputman.richtexteditor";
 import '@mescius/inputman.richtexteditor/JS/plugins/all/plugin.js';
 
 // ライセンスキーの設定
-InputMan.LicenseKey = import.meta.env.VITE_INPUTMANJS_LICENSE_KEY || "";
+//InputMan.LicenseKey = import.meta.env.VITE_INPUTMANJS_LICENSE_KEY || "";
 InputMan.appearanceStyle = InputMan.AppearanceStyle.Modern;
 
 GC.InputMan.ConfigurationManager.registerAIService(async (context) => {
